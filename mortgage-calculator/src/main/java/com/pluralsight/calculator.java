@@ -9,7 +9,7 @@ public class calculator {
 
 
         System.out.print("please enter your principal amount: $");
-        double principal = keyboard.nextInt();
+        double principal = keyboard.nextDouble();
 
         System.out.print("please enter your  annual interest; ");
         float interestRate = keyboard.nextFloat() / 100;
